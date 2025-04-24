@@ -60,9 +60,9 @@ function App() {
         </div>
 
         <div className='flex justify-end mt-4 Audiowide fixed top-0 z-30'>
-          <Link 
-            to='https://x.com/intent/follow?screen_name=husreo_tx' 
-            className='follow-button text-white rounded-xl px-4 py-1.5 hover:bg-sky-800 transition' 
+          <Link
+            to='https://x.com/intent/follow?screen_name=Pup5ol'
+            className='follow-button text-white rounded-xl px-4 py-1.5 hover:bg-sky-800 transition'
             target='block'
           >
             Follow X

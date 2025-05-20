@@ -26,11 +26,11 @@ function App() {
       url: '/skills',
       selected: false
     },
-    {
-      title: 'Location',
-      url: '/contact',
-      selected: false
-    },
+    // {
+    //   title: 'Location',
+    //   url: '/contact',
+    //   selected: false
+    // },
   ])
 
   const changeMenue = (index: number) => {
@@ -115,7 +115,7 @@ function App() {
           <Route path='/' element={<About />} />
           <Route path='/work' element={<Work />} />
           <Route path='/skills' element={<Skill />} />
-          <Route path='/contact' element={<Contact />} />
+          {/* <Route path='/contact' element={<Contact />} /> */}
         </Routes>
         <Footer />
       </BrowserRouter>

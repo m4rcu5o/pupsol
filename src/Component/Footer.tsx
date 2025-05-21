@@ -12,7 +12,7 @@ import {
 const socialMediaIcons: { component: ReactNode; url: string }[] = [
   {
     component: <Github color='#fff' size={25} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,
-    url: 'https://www.github.com/pupsol',
+    url: 'https://www.github.com/m4rcu5o',
   },
   {
     component: <Telegram color='#fff' size={25} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,

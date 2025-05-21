@@ -7,11 +7,11 @@ export const Work = () => {
         {projects.map((val, index) =>
             <div key={index} className="project-block relative border border-dashed border-zinc-400 px-4 py-4 bg-[#0d1d31] flex flex-col justify-between rounded-lg">
                 <Link to={val.links[0].link} className="text-left text-white text-md" target="block">
-                    <div className="flex items-center hover:underline"><FaLink className="inline-block mr-2 text-sm" /> {val.title}</div> 
+                    <div className="flex items-center hover:underline"><FaLink className="inline-block mr-2 text-sm" /> {val.title}</div>
                 </Link>
                 <img src={val.image} alt="" className="mt-3 w-full object-cover rounded-md" />
                 <div className="w-full mt-3">
-                    <p className="text-sm text-left text-lime-200">{val.description}</p>
+                    <p className="text-sm text-lime-200 text-start leading-relaxed">{val.description}</p>
                 </div>
                 {/* <div className="w-full mt-3">
                     <p className="text-sm sm:text-md text-left text-zinc-400">{val.stack.join(' | ')}</p>

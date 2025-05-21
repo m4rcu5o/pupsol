@@ -73,10 +73,23 @@ export const skills = [
 export const projects = [
   {
     id: 15,
+    title: "Snargon",
+    description: "Solana Snargon NFT collection community.",
+    stack: ["Javascript", "Solana NFT", "React", "Tailwind"],
+    image: "/img/snargon.gif",
+    links: [
+      {
+        link: "https://www.snargons.xyz/",
+        id: 2,
+      },
+    ],
+  },
+  {
+    id: 15,
     title: "Solana Coinflip game",
-    description: "Coinflip casino game built on Solana blockchain",
+    description: "Coinflip casino pvp game built on Solana blockchain.",
     stack: ["Rust", "Anchor", "Solana", "Web3", "Anchor", "React"],
-    image: "/img/15.png",
+    image: "/img/coinflip.gif",
     links: [
       {
         link: "https://flip.is",
@@ -85,33 +98,18 @@ export const projects = [
     ],
   },
   {
-    id: 0,
-    title: "Bozo chat",
-    description: "AI chat website",
-    stack: ["Next.js", "TailwindCSS", "Soul engine"],
-    image: "/img/8.png",
+    id: 14,
+    title: "Copy trading bot",
+    description: "Copy trading bot runnig on Raydium and Pump.fun",
+    stack: ["Typescript", "Solana", "Web3", "Raydium & pumpfun SDK"],
+    image: "/img/copytrading.png",
     links: [
       {
-        link: "https://chat.officialbozo.wtf/",
+        link: "https://t.me/volume_boost_sol_bot",
         id: 2,
       },
     ],
   },
-
-  // {
-  //   id: 1,
-  //   title: 'Pioneer Legends',
-  //   description: 'P2E game on solana chain earning by staking.',
-  //   stack: ['Next.js', 'TypeScript', 'MongoDB', 'Rust', 'Solana web3'],
-  //   image: '/img/2.png',
-
-  //   links: [
-  //     {
-  //       link: 'https://www.pioneerlegends.io/',
-  //       id: 1,
-  //     },
-  //   ],
-  // },
 
   {
     id: 14,
@@ -128,12 +126,41 @@ export const projects = [
   },
 
   {
+    id: 0,
+    title: "Bozo chat",
+    description: "AI chat website",
+    stack: ["Next.js", "TailwindCSS", "Soul engine"],
+    image: "/img/8.png",
+    links: [
+      {
+        link: "https://chat.officialbozo.wtf/",
+        id: 2,
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: 'Space Falcone Token Staking Platform',
+    description: 'P2E game on solana chain earning by staking.',
+    stack: ['Next.js', 'TypeScript', 'MongoDB', 'Rust', 'Solana web3'],
+    image: '/img/space.gif',
+
+    links: [
+      {
+        link: 'https://www.pioneerlegends.io/',
+        id: 1,
+      },
+    ],
+  },
+
+
+  {
     id: 9,
     title: "FlareGods",
     description:
       "FlareGods NFT mint platform, unique and intricately designed Flaregods warriors, Predators & Cerebrus-X Apes.",
     stack: ["Next.js", "Rust", "Solana Web3"],
-    image: "/img/10.png",
+    image: "/img/flargods.gif",
     links: [
       {
         link: "https://flaregods.xyz/",
@@ -142,51 +169,12 @@ export const projects = [
     ],
   },
 
-  // {
-  //   id: 2,
-  //   title: "$Bmp brc-20",
-  //   description: "$bmp token(Bitcoin BRC-20) airdrop platform to",
-  //   stack: ["React", "Brc-20"],
-  //   image: "/img/3.png",
-  //   links: [
-  //     {
-  //       link: "https://bmpbrc.com/",
-  //       id: 2,
-  //     },
-  //   ],
-  // },
-  {
-    id: 3,
-    title: "Duel Arena",
-    description: "Blackjack solana p2e game",
-    stack: ["Next.js", "Node.js", "MongoDB", "Solana web3"],
-    image: "/img/4.png",
-    links: [
-      {
-        link: "https://duelarena.io/",
-        id: 2,
-      },
-    ],
-  },
-  {
-    id: 10,
-    title: "Satoshi Punks",
-    description: "Ordinal raffle platform in Bitcoin Network.",
-    stack: ["Next.js", "Typescrit", "Ordinals"],
-    image: "/img/11.png",
-    links: [
-      {
-        link: "https://www.satoshipunks.art/",
-        id: 2,
-      },
-    ],
-  },
   {
     id: 11,
     title: "Bitcoin Defi",
     description: "ArcusLab is a cutting-edge Bitcoin DeFi platform",
     stack: ["Next.js", "Typescrit", "BitcoinJS", "MongoDB"],
-    image: "/img/12.png",
+    image: "/img/arcus.gif",
     links: [
       {
         link: "https://arcusbtc.com",
@@ -195,19 +183,6 @@ export const projects = [
     ],
   },
 
-  {
-    id: 5,
-    title: "Blood loop",
-    description: "NFT Staking platform on Avalance",
-    stack: ["React", "Solidity", "TailwindCSS", "Web3"],
-    image: "/img/6.png",
-    links: [
-      {
-        link: "https://app.bloodloop.com/",
-        id: 2,
-      },
-    ],
-  },
   {
     id: 7,
     title: "Convesting",

@@ -8,7 +8,7 @@ export const About = () => {
         <div className='w-full overflow-auto'>
 
             <GitHubCalendar
-                username="husreo"
+                username="m4rcu5o"
                 year={'last'}
                 transformTotalCount={true}
                 style={{ marginTop: "30px", color: "#fff", minWidth: '800px' }}

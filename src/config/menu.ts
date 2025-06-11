@@ -72,7 +72,7 @@ export const skills = [
 
 export const projects = [
   {
-    id: 15,
+    id: 1,
     title: "Snargon",
     description: "Solana Snargon NFT collection community.",
     stack: ["Javascript", "Solana NFT", "React", "Tailwind"],
@@ -85,7 +85,7 @@ export const projects = [
     ],
   },
   {
-    id: 15,
+    id: 2,
     title: "Solana Coinflip game",
     description: "Coinflip casino pvp game built on Solana blockchain.",
     stack: ["Rust", "Anchor", "Solana", "Web3", "Anchor", "React"],
@@ -251,4 +251,8 @@ export const reference = [
     tweetUrl: "https://x.com/blaze_flint",
     content: "Steven built a clean, responsive React/TypeScript frontend that provided a smooth user experience, including seamless Phantom wallet integration."
   },
+]
+
+export const skillList = [
+  "Blockchain", "Frontend", "Backend", "AI", "Solana", "EVM", "Bitcoin", "Trading bot"
 ]

@@ -237,3 +237,18 @@ export const projects = [
     ],
   },
 ];
+
+export const reference = [
+  {
+    name: "Setoqu",
+    url: "/img/clients/captain.png",
+    tweetUrl: "#",
+    content: "He's really cool guy. Very cheap and effective dev."
+  },
+  {
+    name: "Pupsol",
+    url: "/img/clients/collection.png",
+    tweetUrl: "#",
+    content: "He has built my website perfectly before. You can feel the power of him! We have been working together over 7 years but he didn't ma"
+  }
+]

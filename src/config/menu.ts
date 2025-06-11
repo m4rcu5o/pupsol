@@ -240,15 +240,15 @@ export const projects = [
 
 export const reference = [
   {
-    name: "Setoqu",
-    url: "/img/clients/captain.png",
-    tweetUrl: "#",
-    content: "He's really cool guy. Very cheap and effective dev."
+    name: "Airmass",
+    url: "/img/clients/airmass.png",
+    tweetUrl: "https://x.com/The_Airmass",
+    content: "Thanks to Steven's bot, we've seen a significant increase in our automated trading efficiency. The strategy execution is seamless and works exactly as we intended."
   },
   {
-    name: "Pupsol",
-    url: "/img/clients/collection.png",
-    tweetUrl: "#",
-    content: "He has built my website perfectly before. You can feel the power of him! We have been working together over 7 years but he didn't ma"
-  }
+    name: "Blaze",
+    url: "/img/clients/blaze.png",
+    tweetUrl: "https://x.com/blaze_flint",
+    content: "Steven built a clean, responsive React/TypeScript frontend that provided a smooth user experience, including seamless Phantom wallet integration."
+  },
 ]

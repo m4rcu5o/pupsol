@@ -8,7 +8,7 @@ export const About = () => {
             {/* Visit for more detail <a href='https://drive.google.com/file/d/1dPYF77CKMM1y-00nzpBjBdN8MfWcJMdg/view?usp=drive_link' target='block' className='underline hover:text-white transition text-white'>here</a> */}
         </div>
         {/* Reference */}
-        <div>
+        <div className='py-10'>
             {
                 reference.map((v, i) =>
                     <Quote clinet={v.name} url={v.url} key={"quote" + i} tweet={v.tweetUrl}>{v.content}</Quote>
@@ -21,7 +21,7 @@ export const About = () => {
                 username="m4rcu5o"
                 year={'last'}
                 transformTotalCount={true}
-                style={{ marginTop: "30px", color: "#fff", minWidth: '800px' }}
+                style={{ color: "#fff", minWidth: '800px' }}
             />
         </div>
     </div>

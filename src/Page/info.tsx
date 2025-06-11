@@ -1,4 +1,6 @@
 import GitHubCalendar from 'react-github-calendar';
+import { reference } from '../config/menu';
+import { Quote } from '../Component/Quote';
 
 export const About = () => {
     return <div className='py-8'>
@@ -7,7 +9,11 @@ export const About = () => {
         </div>
         {/* Reference */}
         <div>
-            
+            {
+                reference.map((v, i) =>
+                    <Quote clinet={v.name} url={v.url} key={"quote" + i} tweet={v.tweetUrl}>{v.content}</Quote>
+                )
+            }
         </div>
         <div className='w-full overflow-auto'>
 

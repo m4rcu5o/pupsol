@@ -16,7 +16,7 @@ const socialMediaIcons: { component: ReactNode; url: string }[] = [
   },
   {
     component: <Telegram color='#fff' size={25} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,
-    url: 'https://t.me/stevensprg',
+    url: 'https://t.me/pup5ol',
   },
   {
     component: <Twitter color='#fff' size={25} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,

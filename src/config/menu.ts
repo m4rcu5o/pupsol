@@ -98,7 +98,7 @@ export const projects = [
     ],
   },
   {
-    id: 14,
+    id: 3,
     title: "Copy trading bot",
     description: "Copy trading bot runnig on Raydium and Pump.fun",
     stack: ["Typescript", "Solana", "Web3", "Raydium & pumpfun SDK"],
@@ -112,7 +112,7 @@ export const projects = [
   },
 
   {
-    id: 14,
+    id: 4,
     title: "Telegram Raydium Volume Bot",
     description: "Telegram Raydium Volume Bot",
     stack: ["Node", "node-telegram-bot-api"],
@@ -126,7 +126,7 @@ export const projects = [
   },
 
   {
-    id: 0,
+    id: 5,
     title: "Bozo chat",
     description: "AI chat website",
     stack: ["Next.js", "TailwindCSS", "Soul engine"],
@@ -139,7 +139,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 6,
     title: 'Space Falcone Token Staking Platform',
     description: 'P2E game on solana chain earning by staking.',
     stack: ['Next.js', 'TypeScript', 'MongoDB', 'Rust', 'Solana web3'],
@@ -155,7 +155,7 @@ export const projects = [
 
 
   {
-    id: 9,
+    id: 7,
     title: "FlareGods",
     description:
       "FlareGods NFT mint platform, unique and intricately designed Flaregods warriors, Predators & Cerebrus-X Apes.",
@@ -170,7 +170,7 @@ export const projects = [
   },
 
   {
-    id: 11,
+    id: 8,
     title: "Bitcoin Defi",
     description: "ArcusLab is a cutting-edge Bitcoin DeFi platform",
     stack: ["Next.js", "Typescrit", "BitcoinJS", "MongoDB"],
@@ -184,7 +184,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 9,
     title: "Convesting",
     description: "Powerful tools for wallets, exchanges and trading platform",
     stack: ["Next.js", "TypeScript", "Solidity", "Web3"],
@@ -197,7 +197,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 10,
     title: "Pick Melf",
     description: "shopping platform",
     stack: ["Wordpress", "MySQL"],
@@ -210,7 +210,7 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 11,
     title: "Gamez",
     description:
       "Platform for games like Baccarat, Roulette, Andar Bahar, Sic Bo, Dragon tiger",
@@ -224,7 +224,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 12,
     title: "First for support",
     description: "SPECIALIST CARE Recruitment & Consultancy Services",
     stack: ["React", "MaterialUI", "Typescript", "Express", "MongoDB", "AWS"],
@@ -232,6 +232,19 @@ export const projects = [
     links: [
       {
         link: "https://firstforsupport.co.uk/",
+        id: 2,
+      },
+    ],
+  },
+  {
+    id: 13,
+    title: "Telegram bot quiz game",
+    description: "Telegram bot for quiz game that players get profit answering questions.",
+    stack: ["Telegram SDK", "Typescript", "MongoDB"],
+    image: "/img/quizbot.gif",
+    links: [
+      {
+        link: "https://github.com/m4rcu5o/tg-app-quiz",
         id: 2,
       },
     ],

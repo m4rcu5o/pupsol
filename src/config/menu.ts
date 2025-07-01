@@ -101,7 +101,7 @@ export const projects = [
     id: 3,
     title: "Copy trading bot",
     description: "Copy trading bot runnig on Raydium and Pump.fun",
-    stack: ["Typescript", "Solana", "Web3", "Raydium & pumpfun SDK"],
+    stack: ["Rust", "Solana", "Web3", "Raydium & pumpfun SDK"],
     image: "/img/copytrading.png",
     links: [
       {
@@ -284,8 +284,5 @@ export const skillList = [
 ]
 
 export const filter = [
-  {
-    name: "All",
-
-  }
+  "All", "React", "Next", "Blockchain", "Rust", "Solidity", "Solana", "Casino game",
 ]

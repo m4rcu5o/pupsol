@@ -249,6 +249,19 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 14,
+    title: "Spy sniper",
+    description: "Sniper track bot on all Solana DEX running using Discord API",
+    stack: ["Discord API", "Javascript", "MongoDB"],
+    image: "/img/discord.png",
+    links: [
+      {
+        link: "https://github.com/m4rcu5o/Solana-sniper-track-bot",
+        id: 2,
+      },
+    ],
+  },
 ];
 
 export const reference = [
@@ -268,4 +281,11 @@ export const reference = [
 
 export const skillList = [
   "Blockchain", "Frontend", "Backend", "AI", "Solana", "EVM", "Bitcoin", "Trading bot"
+]
+
+export const filter = [
+  {
+    name: "All",
+
+  }
 ]

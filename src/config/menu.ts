@@ -278,7 +278,7 @@ export const projects = [
   {
     id: 16,
     title: "Swell",
-    description: "providing solutions for decentralized finance (DeFi) and blockchain-based applications",
+    description: "Providing solutions for decentralized finance (DeFi) and blockchain-based applications",
     stack: ["React", "Node.js", "React", "GraphQL", "Solidity", "Hardhat"],
     image: "/img/swell.png",
     links: [

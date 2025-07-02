@@ -262,6 +262,32 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 15,
+    title: "Honey finance",
+    description: "Lending and borrowing NFT from this site and the price comes from the NFT oracle.",
+    stack: ["Solidity", "Hardhat", "React", "Arbitrium", "Polygon"],
+    image: "/img/honey.png",
+    links: [
+      {
+        link: "https://honey.finance/",
+        id: 2,
+      },
+    ],
+  },
+  {
+    id: 16,
+    title: "Swell",
+    description: "providing solutions for decentralized finance (DeFi) and blockchain-based applications",
+    stack: ["React", "Node.js", "React", "GraphQL", "Solidity", "Hardhat"],
+    image: "/img/swell.png",
+    links: [
+      {
+        link: "https://swellnetwork.io",
+        id: 2,
+      },
+    ],
+  },
 ];
 
 export const reference = [
@@ -286,11 +312,11 @@ export const skillList = [
 export const filter = [
   {
     name: "All",
-    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
   },
   {
     name: "React",
-    list: [0, 1, 11]
+    list: [0, 1, 11, 14, 15]
   },
   {
     name: "Next",
@@ -298,7 +324,7 @@ export const filter = [
   },
   {
     name: "Blockchain",
-    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 13]
+    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 13, 14, 15]
   },
   {
     name: "Rust",
@@ -306,7 +332,7 @@ export const filter = [
   },
   {
     name: "Solidity",
-    list: [8]
+    list: [8, 14, 15]
   },
   {
     name: "Solana",
@@ -318,7 +344,7 @@ export const filter = [
   },
   {
     name: "Website",
-    list: [0, 1, 4, 5, 6, 7, 8, 9, 10, 11,]
+    list: [0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15]
   },
   {
     name: "Telegram bot",

@@ -284,5 +284,60 @@ export const skillList = [
 ]
 
 export const filter = [
-  "All", "React", "Next", "Blockchain", "Rust", "Solidity", "Solana", "Casino game",
+  {
+    name: "All",
+    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  },
+  {
+    name: "React",
+    list: [0, 1, 11]
+  },
+  {
+    name: "Next",
+    list: [4, 5, 6, 7, 8, 10]
+  },
+  {
+    name: "Blockchain",
+    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 13]
+  },
+  {
+    name: "Rust",
+    list: [1, 2, 5, 6]
+  },
+  {
+    name: "Solidity",
+    list: [8]
+  },
+  {
+    name: "Solana",
+    list: [0, 1, 2, 3, 5, 6, 13]
+  },
+  {
+    name: "Casino",
+    list: [1, 10]
+  },
+  {
+    name: "Website",
+    list: [0, 1, 4, 5, 6, 7, 8, 9, 10, 11,]
+  },
+  {
+    name: "Telegram bot",
+    list: [3, 12]
+  },
+  {
+    name: "Discord bot",
+    list: [13]
+  },
+  {
+    name: "AI Agent",
+    list: [4]
+  },
+  {
+    name: "Trading bot",
+    list: [2, 3, 12, 13]
+  },
+  {
+    name: "Backend",
+    list: [1, 7, 10, 11]
+  },
 ]

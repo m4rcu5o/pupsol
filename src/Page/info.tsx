@@ -13,7 +13,7 @@ export const About = () => {
                 reference.map((v, i) =>
                     <Quote clinet={v.name} url={v.url} key={"quote" + i} tweet={v.tweetUrl}>{v.content}</Quote>
                 )
-            }f
+            }
         </div>
         <div className='w-full overflow-auto'>
 

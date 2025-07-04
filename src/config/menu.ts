@@ -301,6 +301,19 @@ export const projects = [
       },
     ],
   },
+    {
+    id: 18,
+    title: "Solana volume bot",
+    description: "Solana volume booster running on PumpSwap, Raydium CLMM & CPMM, Meteora DLMM & Dynamic AMM.",
+    stack: ["Solana", "Typescript"],
+    image: "/img/volumebot.jpg",
+    links: [
+      {
+        link: "https://github.com/m4rcu5o/Solana-Volume-Bot",
+        id: 2,
+      },
+    ],
+  },
 ];
 
 export const reference = [
@@ -325,7 +338,7 @@ export const skillList = [
 export const filter = [
   {
     name: "All",
-    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
   },
   {
     name: "React",
@@ -337,7 +350,7 @@ export const filter = [
   },
   {
     name: "Blockchain",
-    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 13, 14, 15]
+    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17]
   },
   {
     name: "Rust",
@@ -349,7 +362,7 @@ export const filter = [
   },
   {
     name: "Solana",
-    list: [0, 1, 2, 3, 5, 6, 13]
+    list: [0, 1, 2, 3, 5, 6, 13, 17]
   },
   {
     name: "Casino",
@@ -361,7 +374,7 @@ export const filter = [
   },
   {
     name: "Telegram bot",
-    list: [3, 12, 16]
+    list: [3, 12, 16, 17]
   },
   {
     name: "Discord bot",
@@ -373,7 +386,7 @@ export const filter = [
   },
   {
     name: "Trading bot",
-    list: [2, 3, 12, 13]
+    list: [2, 3, 12, 13, 17]
   },
   {
     name: "Backend",
@@ -382,5 +395,9 @@ export const filter = [
   {
     name: "Ton",
     list: [16]
+  },
+  {
+    name: "DeFi",
+    list: [14, 15]
   },
 ]

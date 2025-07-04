@@ -288,6 +288,19 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 17,
+    title: "Telegram mini app game",
+    description: "Telegram mini app game running on Ton blockchain.",
+    stack: ["Telegram API", "Ton", "Typescript"],
+    image: "/img/tg-mini-app.png",
+    links: [
+      {
+        link: "#",
+        id: 2,
+      },
+    ],
+  },
 ];
 
 export const reference = [
@@ -312,7 +325,7 @@ export const skillList = [
 export const filter = [
   {
     name: "All",
-    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
   },
   {
     name: "React",
@@ -348,7 +361,7 @@ export const filter = [
   },
   {
     name: "Telegram bot",
-    list: [3, 12]
+    list: [3, 12, 16]
   },
   {
     name: "Discord bot",
@@ -365,5 +378,9 @@ export const filter = [
   {
     name: "Backend",
     list: [1, 7, 10, 11]
+  },
+  {
+    name: "Ton",
+    list: [16]
   },
 ]

@@ -293,7 +293,7 @@ export const projects = [
     title: "Telegram mini app game",
     description: "Telegram mini app game running on Ton blockchain.",
     stack: ["Telegram API", "Ton", "Typescript"],
-    image: "/img/tg-mini-app.png",
+    image: "/img/tg-mini-app.gif",
     links: [
       {
         link: "#",

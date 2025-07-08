@@ -47,6 +47,8 @@ export const skills = [
     "Firebase",
     "AWS",
     "Azure",
+    "Supabase"
+    "PostgreSQL"
   ],
   [
     "Rust",

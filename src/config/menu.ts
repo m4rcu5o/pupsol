@@ -47,7 +47,7 @@ export const skills = [
     "Firebase",
     "AWS",
     "Azure",
-    "Supabase"
+    "Supabase",
     "PostgreSQL"
   ],
   [
